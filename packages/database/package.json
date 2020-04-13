@@ -4,5 +4,13 @@
   "description": "Database migration for Real World app",
   "main": "index.js",
   "author": "Chau Dinh <chaudvb95uc@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "migrate": "export NODE_ENV=development && knex migrate:latest"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.20.13",
+    "pg": "^8.0.2"
+  }
 }
