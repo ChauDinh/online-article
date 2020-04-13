@@ -1,0 +1,20 @@
+{
+  "name": "@app/backend",
+  "version": "0.1.0",
+  "description": "Real world backend Node.js",
+  "main": "index.js",
+  "author": "Chau Dinh <chaudvb95uc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "moleculer-runner --env --repl --hot services --mask **/*.service.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "moleculer": "^0.14.6",
+    "moleculer-web": "^0.9.1"
+  },
+  "devDependencies": {
+    "moleculer-repl": "^0.6.4"
+  }
+}
