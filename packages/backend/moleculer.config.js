@@ -20,6 +20,15 @@ module.exports = {
     shutdownTimeout: 5000,
   },
 
+  // cacher: {
+  //   type: "memory",
+  //   options: {
+  //     ttl: 10, // 10 seconds
+  //   },
+  // },
+
+  cacher: "redis://localhost:6379",
+
   disableBalancer: false,
 
   registry: {

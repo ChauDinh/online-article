@@ -14,7 +14,7 @@ module.exports = {
         authentication: false,
         autoAliases: false,
         aliases: {
-          "GET /sum": `${SERVICE_USER}.sum`,
+          "GET /users": `${SERVICE_USER}.getAllUsers`,
         },
         bodyParsers: {
           json: { limit: "2MB" },
